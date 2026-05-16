@@ -3,15 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_printf.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: nuno1tap <nuno1tap@student.42.fr>          +#+  +:+       +#+        */
+/*   By: nuelblin <nuelblin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/05/15 17:15:42 by nuno1tap          #+#    #+#             */
-/*   Updated: 2026/05/15 18:46:05 by nuno1tap         ###   ########.fr       */
+/*   Created: 2026/05/15 17:15:42 by nuelblin          #+#    #+#             */
+/*   Updated: 2026/05/16 14:47:19 by nuelblin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef     FT_PRINT_H
-# define FT_PRINT_H
+#ifndef FT_PRINTF_H
+# define FT_PRINTF_H
 
 # include <stdarg.h>
 # include <stdlib.h>
