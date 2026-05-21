@@ -11,7 +11,6 @@ The function parses a format string character by character and, whenever it enco
 **Supported conversion specifiers:**
 
 | Specifier | Output |
-| :--- | :--- |
 | `%c` | Single character |
 | `%s` | String (`(null)` if pointer is NULL) |
 | `%d` | Signed decimal integer |
@@ -30,7 +29,7 @@ Clone the repository and run `make` to compile the library:
 
 ## Resources
 
-Youtube.
+Youtube, Google and Gemini.
 
 ### AI Usage
 

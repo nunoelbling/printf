@@ -6,7 +6,7 @@
 /*   By: nuelblin <nuelblin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/15 17:26:38 by nuelblin          #+#    #+#             */
-/*   Updated: 2026/05/16 14:43:54 by nuelblin         ###   ########.fr       */
+/*   Updated: 2026/05/21 14:31:09 by nuelblin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ int	ft_putstr(char *s)
 
 	i = 0;
 	if (!s)
-		return (ft_putstr("(null"));
+		return (ft_putstr("(null)"));
 	while (s[i])
 	{
 		write(1, &s[i], 1);

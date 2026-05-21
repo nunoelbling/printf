@@ -6,7 +6,7 @@
 #    By: nuelblin <nuelblin@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/05/15 19:13:55 by nuelblin          #+#    #+#              #
-#    Updated: 2026/05/16 14:44:05 by nuelblin         ###   ########.fr        #
+#    Updated: 2026/05/21 14:25:09 by nuelblin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ CFLAGS = -Wall -Wextra -Werror
 RM = rm -f
 AR = ar rcs
 
-SRCS = ft_printf.c utils.c
+SRCS = ft_printf.c utils.c utils2.c
 OBJS = $(SRCS:.c=.o)
 
 all: $(NAME)

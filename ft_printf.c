@@ -6,7 +6,7 @@
 /*   By: nuelblin <nuelblin@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/05/15 18:46:49 by nuelblin          #+#    #+#             */
-/*   Updated: 2026/05/16 14:53:43 by nuelblin         ###   ########.fr       */
+/*   Updated: 2026/05/21 14:41:52 by nuelblin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,6 +68,7 @@ int	ft_printf(const char *format, ...)
 
 	ft_printf("Char: %c\n", 'A');
 	ft_printf("String: %s\n", "42 Lisboa");
+	ft_printf(" NULL %s NULL ", NULL);
 	ft_printf("Pointer: %p\n", &n);
 	ft_printf("Decimal: %d\n", -2147483648);
 	ft_printf("Integer: %i\n", 2147483647);
@@ -76,4 +77,4 @@ int	ft_printf(const char *format, ...)
 	ft_printf("Hex Up: %X\n", 255);
 	ft_printf("Percent: %%\n");
 	return (0);
-}*/
+} */
